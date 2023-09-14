@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h3>tabelas e formularios</h3>
+    <table border="2">
+        <tr>
+            <th colspan="2">
+            cadastro                  
+            </th>
+        </tr>
+        <tr>
+            <td rowspan="2"><img src="https://images.pexels.com/photos/726478/pexels-photo-726478.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="800"></td>
+            <td>
+                <p>dados pessoais</p>
+                <form>
+                    <label for="log">login</label>
+                    <p><input type="text" id="log" name="login" placeholder="login"></p>
+                    <p><label for="pass">senha</label></p>
+                    <p><input type="password" id="pass" name="senha" placeholder="senha"></p>
+                    <button>
+                        cadastrar
+                    </button>
+                    <input type="submit" value="cadastrar">
+                    <input type="reset" value="reset">
+                    <input type="button" value="cadastrar">
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <p><p>endereços de entrega</p>
+            <p><label for="da">data de entrega</label></p>
+            <input type="date" name="data" id="da">
+            <p><label for="end">endereço</label></p>
+            <input type="text" name="endereco" id="end">
+            </td>
+        </tr>
+                </form>
+    </table>
+</body>
+</html>
